@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Chloe's Coffee Shop - Home</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
@@ -14,14 +15,14 @@
         <h1>Chloe's Coffee Shop</h1>
         <nav>
             <ul> 
-                <li><a href="index.html">home</a></li>
-                <li><a href=contact.html" >Contact Us</a></li>
+                <li><a href="index.html" class="current">Home</a></li>
+                <li><a href="contact.html" >Contact Us</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <!-- Adding an on page link-->
-        <a href="#treatoftheweek">Treat of the Week</a>
+        <a href="#treatoftheweek" class="blue-link">Treat of the Week</a>
         <article>
             <h2>Our Story</h2>
             <img src="./images/coffee-shop.jpg" title="coffee cup on a pile of coffee beans" alt="coffee cup on a pile of coffee beans">
@@ -30,7 +31,7 @@
                 and head barista of the shop. Maria is the pastry shop and is in charge of the bake shop. Celebrating
                 their 10<sup>th</sup> anniversary together in March 2024.
             </p>
-            <blockquote>
+            <blockquote class="large-text">
                 We love coffee! <cite>- Reggie and Maria</cite>
             </blockquote>
             <hr>
@@ -60,8 +61,8 @@
         </section>
         <!-- Adding a section for description list -->
         <section id="treatoftheweek">
-            <h3>Treat of the Week</h3>
-            <dl>
+            <h3 class="white-text">Treat of the Week</h3>
+            <dl class="white-text">
                 <dt>Name</dt>
                 <dd>Banana Bread</dd>
 
@@ -88,7 +89,7 @@
         <!-- Adding section for Menu Table-->
         <section>
             <h3>Menu Specials</h3>
-            <table border>
+            <table>
                 <thread>
                     <tr>
                         <th colspan="2">Items</th>
@@ -116,7 +117,7 @@
         </section>
     </main>
     <!-- Site Footer -->
-    <footer>
+    <footer class="site-footer">
         <!-- Special Symbols for an HTML can be found by googling HTML entities -->
         &copy; Copyright Reggie's Coffee Shop 2023
     </footer>
