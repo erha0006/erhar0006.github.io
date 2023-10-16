@@ -1,4 +1,36 @@
 img {
     width: 200px;
     object-fit: contain;
+    box-shadow: -2px 2px 4px 2px black;
+    box-shadow: 0 0 4px 2px black;
 }
+body {
+    font-size: 18px;
+    background-color: pink;
+}
+footer,
+header {
+    background-color: rgb(232, 137, 153);
+}
+h1.site-title {
+    color: rgb(116, 37, 50);
+    text-decoration: underline;
+}
+ul  {
+    list-style-type: square;
+}
+li:nth-child(2n+1) {
+    background: palevioletred;
+}
+a.nav {
+    text-decoration: none;
+}
+nav {
+    background-color: cyan;
+    border: 3px solid black;
+}
+nav:hover,
+nav:focus {
+    background-color: lightseagreen;
+}
+
