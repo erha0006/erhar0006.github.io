@@ -7,6 +7,7 @@ body {
 
     font-family: Arial, Helvetica, sans-serif;
     color:darkslategray;
+    background-image: url(../images/white_brick_wall\ \(1\).png);
 }
 
 h1 {
@@ -36,7 +37,11 @@ nav ul a {
 /* Selecting element with ID value */
 /* As a best practice, avoid using ID for styles */
 #treatoftheweek {
-    background-color: cadetblue;
+    /* color image repeat poistion-x position-y*/
+    background: cadetblue url(../images/bread.jpg)no-repeat center;
+    /* background size */
+    background-size: cover;
+    font-size: 1.5rem;
 }
 
 /* Selecting HTML elements with class name */
@@ -59,6 +64,12 @@ nav ul a {
 /* Direct child selector - will only select direct child of the parent */
 article>p {
     font-size: 24px;
+
+    /* CSS typgraphy properties */
+    font-weight: bold;
+    line-height: 1.5;
+    text-transform: lowercase;
+    text-align: center;
 }
 
 /* Adjacent sibling selector - selects the element that is the very next sibling to the selected element, if any exist */
