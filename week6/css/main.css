@@ -41,7 +41,14 @@ nav ul a {
     background: cadetblue url(../images/bread.jpg)no-repeat center;
     /* background size */
     background-size: cover;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
+    /* 16px * 1,25 = 20px */
+    /* padding pushes the element away from the walls */
+    padding: 1em;
+    /* 1em * 20px(element font size) = 20px */
+    width: 50%;
+    /* height is 100% of the browser sieze and it is dynamic */
+    /* height: 100vw; */
 }
 
 /* Selecting HTML elements with class name */
