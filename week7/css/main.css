@@ -1,13 +1,30 @@
 /* 
 This is a CSS comment
-Shortcut for adding the comment is command/ctrl + /
-*/
+Shortcut for adding the comment is command/ctrl + /*/
 
 body {
 
     font-family: Arial, Helvetica, sans-serif;
     color:darkslategray;
     background-image: url(../images/white_brick_wall\ \(1\).png);
+}
+/* box model example  */
+section p {
+    width: 50%;
+    /* single value - top/bottom/left/right */
+    /* 2 values - first value = top/bottom, second value = left/right */
+    padding: 5em .5em;
+    /* top right bottom left */
+    margin: -1em 2em 2em 2em;
+}
+.container {
+    /* create a container containing everything inside the body tag */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
 }
 
 h1 {
@@ -29,8 +46,16 @@ nav ul {
     list-style: none;
 }
 
+nav ul li {
+    display: inline-block;
+    width: 49%;
+    padding: 1em;
+    box-sizing: border-box;
+}
+
 /* Selecting child elements multiple levels */
 nav ul a {
+    display: block;
     color: darkslategray;
     text-decoration: none;
 }
@@ -53,6 +78,9 @@ nav ul a {
 
 /* Selecting HTML elements with class name */
 .blue-link {
+    padding: 1.5em;
+    width: 300px;
+    display: block;
     background-color: darkslategray;
     color: antiquewhite;
     text-decoration: none;
@@ -60,6 +88,27 @@ nav ul a {
 
 .large-text {
     font-size: 24px;
+}
+
+/* An example of float */
+
+article,
+aside {
+    width: 80%;
+    background-color: rgba(255,255, 255, 0.6);
+    border: 1px solid black;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    float: left;
+}
+
+aside {
+    width: 20%;
+}
+
+/* clear float from the section */
+section {
+    clear: both;
 }
 
 .white-text {
