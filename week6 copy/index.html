@@ -1,0 +1,127 @@
+<!DOCTYPE html> 
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chloe's Coffee Shop - Home</title>
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+    <!-- This is an HTML comment -->
+    <!-- command/ctrl + / to add or remove comment -->
+    <!-- alt and z gives you the word wrap tool -->
+    <header>
+        <h1>Chloe's Coffee Shop</h1>
+        <nav>
+            <ul> 
+                <li><a href="index.html" class="current">Home</a></li>
+                <li><a href="contact.html" >Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Adding an on page link-->
+        <a href="#treatoftheweek" class="blue-link">Treat of the Week</a>
+        <article>
+            <h2>Our Story</h2>
+            <img src="./images/coffee-shop.jpg" title="coffee cup on a pile of coffee beans" alt="coffee cup on a pile of coffee beans">
+            <p>
+                We are a <em>a family owned business</em>. Reggie is the <abbr title="Chief Executive Officer"></abbr>
+                and head barista of the shop. Maria is the pastry shop and is in charge of the bake shop. Celebrating
+                their 10<sup>th</sup> anniversary together in March 2024.
+            </p>
+            <blockquote class="large-text">
+                We love coffee! <cite>- Reggie and Maria</cite>
+            </blockquote>
+            <hr>
+            <section>
+                <h3>Ottawa</h3>
+                <p>
+                    We are a local coffee shop based in Ottawa. Our specialty is <b>Organic fair-trade</b> coffee.
+                </p>
+            </section>
+        </article> 
+        <aside>
+            <h3>Merchandise</h3>
+            <!-- Adding an unordered list -->
+            <ul>
+                <li> T-shirts </li>
+                <li>Hats</li>
+                <li>Hoodie</li>
+            </ul>
+        </aside>
+        <!-- Adding a section for an ordered list -->
+        <section>
+            <h3>Events</h3>
+            <ol>
+                <li>October 23 <sup>rd</sup> - Coffee for Hope Foundation</li>
+                <li>November 17 <sup>th</sup> - Live Music</li>
+            </ol>
+        </section>
+        <!-- Adding a section for description list -->
+        <section id="treatoftheweek">
+            <h3 class="white-text">Treat of the Week</h3>
+            <dl class="white-text">
+                <dt>Name</dt>
+                <dd>Banana Bread</dd>
+
+                <dt>Calories</dt> 
+                <dd>250</dd>
+
+                <dt>Ingredients</dt>
+                <dd>
+                    <ul>
+                        <li>All purpose flour</li>
+                        <li>Baking Soda</li>
+                        <li>Baking powder</li>
+                        <li>Salt</li>
+                        <li>Eggs</li>
+                        <li>Butter</li>
+                        <li>Sugar</li>
+                        <li>Bananas</li>
+                    </ul>
+                </dd>
+            </dl>
+            <!-- adding an externl link-->
+            <a href="https://www.allrecipes.com/recipe/20144/banana-banana-bread/" target="_blank" >get the recipe</a>
+        </section>
+        <!-- Adding section for Menu Table-->
+        <section>
+            <h3>Menu Specials</h3>
+            <table>
+                <thread>
+                    <tr>
+                        <th colspan="2">Items</th>
+                        <th rowspan="2">Price</th>
+                    </tr>
+                    <tr>
+                        <th>Name</th>
+                        <th>Calories</th>
+                    </tr>
+                    <tbody>
+                        <tr>
+                            <td>Banana Bread</td>
+                            <td>250</td>
+                            <td>&dollar;6.00</td>
+                        </tr>
+                        <tr>
+                            <td>Oatmeal</td>
+                            <td>110</td>
+                            <td>&dollar;8.00</td>
+                        </tr>
+
+                    </tbody>
+                </thread>
+            </table>
+        </section>
+    </main>
+    <!-- Site Footer -->
+    <footer class="site-footer">
+        <!-- Special Symbols for an HTML can be found by googling HTML entities -->
+        &copy; Copyright Reggie's Coffee Shop 2023
+    </footer>
+</body>
+
+</html>
