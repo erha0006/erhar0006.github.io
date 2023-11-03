@@ -4,19 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tucker The Dog</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 
-<body>
+<body class="container">
     <header>
-        <h1>Tucker The Dog</h1>
-        <img src="https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/Chloe/Pictures/F23%20Intro%20to%20photo/Erhardt%20C%20PSA1/Erhardt_C_-5%20rule%20of%20thirds.jpg?version%3D1698708727360" alt="">
+        <div class="container">
+            <img src="image/Friday Oct 27th.jpg" style="width: 1200px;">
+            <div class="centered">
+                <h1 class="title">Tucker</h1>
+            </div>
+        </div>
     </header>
+    <nav>
+        <ul class="nav">
+            <li class="nav"><a href="index.html" class="current">Home</a></li>
+            <li class="nav"><a href="contact.html" >Contact Information and Question</a></li>
+        </ul>
+    </nav>
 <p>
     <h2> About Tucker</h2> 
 
 </p>
 
 <p>
+    <img src="image/Friday Oct 27th.jpg" style="float: left;width: 100px;">
     To start off, Tucker is a lovable and sweet dog who if it weren't for his big size. Would be a perfect lap dog. When on two feet standing up, he is almost 5 feet.
     Tucker is almost 2 years old in dog years but in human years he would be around 24 years old. Ever since he was a puppy, hes always been so quiet and never was
     blood curling loud. Only he ever barks is at the window when nothing is there, this is his way of being a guard dog but yet, he's scared of water. One of his favourite 
@@ -33,12 +45,42 @@
     <li>Is a suck up</li>
     <li>Pees himself when hes too happy</li>
 </p>
-<nav>
-    <ul>
-    <li><a href="index.html" class="current">Home</a></li>
-    <li><a href="contact.html" >Contact Information and Question</a></li>
-    <li><a href="Image.html">Images of Tucker</a></li>
-    </ul>
-</nav>
+<h1>
+    Contact Info:
+</h1>
+<div class="container" style="border: 5px solid black;background-color: rgb(157, 181, 202);">
+    <form action="thanks.html" method="post">
+        <h2>What do you love about Tucker?</h2>
+        <div>
+            <label for="Answer">Answer</label>
+            <textarea name="Answer" id="Answer" cols="50" rows="1"></textarea>
+        </div>
+        <p>
+            <h3>Enter Email and Name down Below</h3>
+            <div>
+                <label for="Your Name">Your Name</label>
+                <input type="text" id="Your Name" placeholder="Your Name" required>
+            </div>
+            <div>
+                <label for="Fullname">Fullname</label>
+                <input type="text" id="Your Email" placeholder="Your Email" required>
+            </div>
+        </p>
+        <h3>Did you like this information about Tucker?</h3>
+        <div>
+            <label for="Yes">Yes</label>
+            <input type="radio" name="past" id="Yes">
+            <label for="No">No</label>
+            <input type="radio" name="past" id="No">
+
+            <h3>If or if not, Can you answer why?</h3>
+            <div>
+                <label for="Why?">Why?</label>
+                <textarea name="Why?" id="Why?" cols="50" rows="1"></textarea>
+            </div>
+            <button type="button">Send</button>
+        </div>
+    </form>
+</div>
 </body>
 </html>

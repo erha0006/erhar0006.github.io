@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(158, 188, 215);
+}
+h1.title {
+    color: rgb(204, 220, 235);    
+}
+.container {
+    /* create a container containing everything inside the body tag */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+ul.nav {
+    border-left: 2px solid #555;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    width: 200px;
+    background-color: rgb(115, 153, 187);
+}
+li.nav {
+    display: inline;
+}
+li a {
+    display: block;
+    text-align: center;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+.centered {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+img { 
+    border: black;
+}
