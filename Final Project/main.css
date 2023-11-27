@@ -1,0 +1,23 @@
+h2, 
+p {
+    padding: 1em;
+}
+.container {
+    position: relative;
+}
+.image {
+    width: 100%;
+}
+.text-overlay {
+    position: absolute;
+    top: 90%;
+    left: 60%;
+    transform: translate(-90%, -60%);
+    color: black;
+    font-size: 7rem;
+}
+
+section,
+footer {
+    padding: 1em;
+}
