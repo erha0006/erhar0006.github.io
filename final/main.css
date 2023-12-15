@@ -1,23 +1,287 @@
-h2, 
-p {
-    padding: 1em;
-}
-.container {
-    position: relative;
-}
-.image {
-    width: 100%;
-}
-.text-overlay {
-    position: absolute;
-    top: 90%;
-    left: 60%;
-    transform: translate(-90%, -60%);
-    color: black;
-    font-size: 7rem;
+
+/* *****Header***** */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
-section,
-footer {
-    padding: 1em;
+header {
+    background-color: #222;
 }
+.horizontal-list {
+    list-style: none;
+    padding: 0;
+}
+.horizontal-list li {
+    display: inline-block;
+    margin-right: 10px;
+}
+ul, 
+li {
+    text-align: center;
+}
+ul,
+li {
+    padding: 2rem;
+}
+
+/* *****Title***** */
+.mainbanner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+html {
+    padding: 30px;
+}
+body {
+    margin: 0;
+}
+.image-container1 {
+    position: relative;
+    width: 100%;
+    max-width: 100em;
+}
+.image-container1 {
+    width: 100%;
+    height: auto;
+}
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-left: 600px;
+    padding-right: 600px;
+    padding: 8%;
+    border-radius: 5px;
+}
+.contactbutton {
+    width: 200px;
+    height: 70px;
+    background-color: #c78c06;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.contactbutton:hover {
+    background-color: white;
+}
+/* *****About Us***** */
+
+.aboutus {
+    background-color: #ffe6ac;
+}
+.aboutus1 {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+}
+p {
+    margin-left: 10px;
+    text-align: right;
+    text-align: center;
+}
+.aboutus1 {
+    font-weight: bold;
+}
+.aboutus1 {
+    display: flex;
+    align-items: center;
+}
+.aboutus1 {
+    max-width: 100%;
+    margin-right: 10px;
+}
+h2 {
+    font-size: 24px;
+}
+.aboutus1 {
+    display: flex;
+    align-items: center;
+}
+.aboutus1 {
+    max-width: 100%;
+    margin-right: 10px;
+}
+.aboutus {
+    text-align: right;
+}
+/* *****Our Services***** */
+.column {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #ffe6ac;
+}
+.container2 {
+    position: relative;
+}
+.container2 video {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+p {
+    font-size: 16px;
+}
+button {
+    padding: 10px 20px;
+    font-size: 14px;
+}
+h1 {
+    text-align: left;
+}
+
+.ourserivces {
+    font-size: 50px;
+}
+.column {
+    float: center;
+    text-align: center;
+}
+.container1 {
+    text-align: center;
+}
+.button {
+    width: 200px;
+    height: 70px;
+    background-color:#222;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.button:hover {
+    background-color: #c78c06;
+}
+.digital, 
+.marketing, 
+.video,
+.web,
+.print {
+    width: 90%;
+    height: auto;
+    padding: 10px;
+}
+
+/* *****Our Vision***** */
+
+.ourvision {
+    font-size: 50px;
+}
+
+
+.Ourvision {
+    width: 90em;
+    height: 20em;
+}
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+
+/* *****Our Team***** */
+.team1 {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 0px;
+    background-color: #ffe6ac;
+}
+.image-team1{    
+    max-width:100%;
+}
+.text-team1 {
+    max-width:100%;
+}
+
+/* *****Contact Sheet***** */
+
+
+
+/* *****Hours of Operation */
+
+.fullname {
+    text-align: left;
+}
+.youremail {
+    text-align: left;
+}
+.message {
+    text-align: left;
+}
+.contactus {
+    text-align: left;
+}
+.location {
+    text-align: center;
+    float: right;
+    width: 50%;
+    height: 50%;
+}
+
+.fullname,
+.youremail,
+.message {
+    font-size: 24px;
+}
+.contactus {
+    font-size: 50px;
+}
+.title{
+    font-size: 50px;
+}
+
+footer {
+    background-color: #222;
+    text-emphasis-color: white;
+}
+.submit {
+    width: 100x;
+    height: 50px;
+    background-color:#222;
+    color: #c78c06;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.submit:hover {
+    background-color: white;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+th, 
+td,
+.colspan {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+.Days,
+.Hours {
+    background-color: #ffe6ac;
+}
+
